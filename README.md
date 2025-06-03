@@ -1,3 +1,7 @@
+# Flutter 入門：基本アプリの構造
+
+このドキュメントでは、Flutterを使ったシンプルなアプリのコード例とその解説をまとめます。Flutterの学習の第一歩として、アプリの構造や各要素の役割を理解するのに役立つ。
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,14 +22,3 @@ class MyApp extends StatelessWidget {
   }
 }
 
-main()関数でアプリを起動：runApp(MyApp());
-
-MyAppはStatelessWidgetを継承したウィジェット
-
-buildメソッドでUIを構築
-
-MaterialAppウィジェットを返す（アプリの基本構造）
-
-homeプロパティにTextウィジェットを配置し、「Hello, Flutter World!!」を表示
-
-テキストのサイズはTextStyle(fontSize: 32.0)で指定
