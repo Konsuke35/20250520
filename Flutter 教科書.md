@@ -4,9 +4,9 @@
 簡単なUIプロトタイピング
 
 
-chaputer4
 
-# chaputer4FlutterのAppBarまとめ
+
+# chaputer4　FlutterのAppBarまとめ（未）
 
 ## AppBarとは
 
